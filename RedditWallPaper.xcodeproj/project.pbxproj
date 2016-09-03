@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051FE15E1D7B4A6F00B1C23A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 051FE15D1D7B4A6F00B1C23A /* main.m */; };
+		051FE1611D7B4A6F00B1C23A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 051FE1601D7B4A6F00B1C23A /* AppDelegate.m */; };
+		051FE1641D7B4A6F00B1C23A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051FE1631D7B4A6F00B1C23A /* ViewController.m */; };
+		051FE1671D7B4A6F00B1C23A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051FE1651D7B4A6F00B1C23A /* Main.storyboard */; };
+		051FE1691D7B4A6F00B1C23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051FE1681D7B4A6F00B1C23A /* Assets.xcassets */; };
+		051FE16C1D7B4A6F00B1C23A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051FE16A1D7B4A6F00B1C23A /* LaunchScreen.storyboard */; };
+		051FE1771D7B4A7000B1C23A /* RedditWallPaperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 051FE1761D7B4A7000B1C23A /* RedditWallPaperTests.m */; };
+		051FE1821D7B4A7000B1C23A /* RedditWallPaperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 051FE1811D7B4A7000B1C23A /* RedditWallPaperUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		051FE1731D7B4A7000B1C23A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051FE1511D7B4A6F00B1C23A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 051FE1581D7B4A6F00B1C23A;
+			remoteInfo = RedditWallPaper;
+		};
+		051FE17E1D7B4A7000B1C23A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051FE1511D7B4A6F00B1C23A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 051FE1581D7B4A6F00B1C23A;
+			remoteInfo = RedditWallPaper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051FE1591D7B4A6F00B1C23A /* RedditWallPaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditWallPaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		051FE15D1D7B4A6F00B1C23A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		051FE15F1D7B4A6F00B1C23A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		051FE1601D7B4A6F00B1C23A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		051FE1621D7B4A6F00B1C23A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		051FE1631D7B4A6F00B1C23A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		051FE1661D7B4A6F00B1C23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		051FE1681D7B4A6F00B1C23A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		051FE16B1D7B4A6F00B1C23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		051FE16D1D7B4A6F00B1C23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051FE1721D7B4A7000B1C23A /* RedditWallPaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedditWallPaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		051FE1761D7B4A7000B1C23A /* RedditWallPaperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedditWallPaperTests.m; sourceTree = "<group>"; };
+		051FE1781D7B4A7000B1C23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051FE17D1D7B4A7000B1C23A /* RedditWallPaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedditWallPaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		051FE1811D7B4A7000B1C23A /* RedditWallPaperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedditWallPaperUITests.m; sourceTree = "<group>"; };
+		051FE1831D7B4A7000B1C23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		051FE1561D7B4A6F00B1C23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051FE16F1D7B4A7000B1C23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051FE17A1D7B4A7000B1C23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051FE1501D7B4A6F00B1C23A = {
+			isa = PBXGroup;
+			children = (
+				051FE15B1D7B4A6F00B1C23A /* RedditWallPaper */,
+				051FE1751D7B4A7000B1C23A /* RedditWallPaperTests */,
+				051FE1801D7B4A7000B1C23A /* RedditWallPaperUITests */,
+				051FE15A1D7B4A6F00B1C23A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		051FE15A1D7B4A6F00B1C23A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				051FE1591D7B4A6F00B1C23A /* RedditWallPaper.app */,
+				051FE1721D7B4A7000B1C23A /* RedditWallPaperTests.xctest */,
+				051FE17D1D7B4A7000B1C23A /* RedditWallPaperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		051FE15B1D7B4A6F00B1C23A /* RedditWallPaper */ = {
+			isa = PBXGroup;
+			children = (
+				051FE15F1D7B4A6F00B1C23A /* AppDelegate.h */,
+				051FE1601D7B4A6F00B1C23A /* AppDelegate.m */,
+				051FE1621D7B4A6F00B1C23A /* ViewController.h */,
+				051FE1631D7B4A6F00B1C23A /* ViewController.m */,
+				051FE1651D7B4A6F00B1C23A /* Main.storyboard */,
+				051FE1681D7B4A6F00B1C23A /* Assets.xcassets */,
+				051FE16A1D7B4A6F00B1C23A /* LaunchScreen.storyboard */,
+				051FE16D1D7B4A6F00B1C23A /* Info.plist */,
+				051FE15C1D7B4A6F00B1C23A /* Supporting Files */,
+			);
+			path = RedditWallPaper;
+			sourceTree = "<group>";
+		};
+		051FE15C1D7B4A6F00B1C23A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				051FE15D1D7B4A6F00B1C23A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		051FE1751D7B4A7000B1C23A /* RedditWallPaperTests */ = {
+			isa = PBXGroup;
+			children = (
+				051FE1761D7B4A7000B1C23A /* RedditWallPaperTests.m */,
+				051FE1781D7B4A7000B1C23A /* Info.plist */,
+			);
+			path = RedditWallPaperTests;
+			sourceTree = "<group>";
+		};
+		051FE1801D7B4A7000B1C23A /* RedditWallPaperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				051FE1811D7B4A7000B1C23A /* RedditWallPaperUITests.m */,
+				051FE1831D7B4A7000B1C23A /* Info.plist */,
+			);
+			path = RedditWallPaperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		051FE1581D7B4A6F00B1C23A /* RedditWallPaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051FE1861D7B4A7000B1C23A /* Build configuration list for PBXNativeTarget "RedditWallPaper" */;
+			buildPhases = (
+				051FE1551D7B4A6F00B1C23A /* Sources */,
+				051FE1561D7B4A6F00B1C23A /* Frameworks */,
+				051FE1571D7B4A6F00B1C23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedditWallPaper;
+			productName = RedditWallPaper;
+			productReference = 051FE1591D7B4A6F00B1C23A /* RedditWallPaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		051FE1711D7B4A7000B1C23A /* RedditWallPaperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051FE1891D7B4A7000B1C23A /* Build configuration list for PBXNativeTarget "RedditWallPaperTests" */;
+			buildPhases = (
+				051FE16E1D7B4A7000B1C23A /* Sources */,
+				051FE16F1D7B4A7000B1C23A /* Frameworks */,
+				051FE1701D7B4A7000B1C23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				051FE1741D7B4A7000B1C23A /* PBXTargetDependency */,
+			);
+			name = RedditWallPaperTests;
+			productName = RedditWallPaperTests;
+			productReference = 051FE1721D7B4A7000B1C23A /* RedditWallPaperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		051FE17C1D7B4A7000B1C23A /* RedditWallPaperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051FE18C1D7B4A7000B1C23A /* Build configuration list for PBXNativeTarget "RedditWallPaperUITests" */;
+			buildPhases = (
+				051FE1791D7B4A7000B1C23A /* Sources */,
+				051FE17A1D7B4A7000B1C23A /* Frameworks */,
+				051FE17B1D7B4A7000B1C23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				051FE17F1D7B4A7000B1C23A /* PBXTargetDependency */,
+			);
+			name = RedditWallPaperUITests;
+			productName = RedditWallPaperUITests;
+			productReference = 051FE17D1D7B4A7000B1C23A /* RedditWallPaperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		051FE1511D7B4A6F00B1C23A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lakshminarayana B R";
+				TargetAttributes = {
+					051FE1581D7B4A6F00B1C23A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					051FE1711D7B4A7000B1C23A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 051FE1581D7B4A6F00B1C23A;
+					};
+					051FE17C1D7B4A7000B1C23A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 051FE1581D7B4A6F00B1C23A;
+					};
+				};
+			};
+			buildConfigurationList = 051FE1541D7B4A6F00B1C23A /* Build configuration list for PBXProject "RedditWallPaper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 051FE1501D7B4A6F00B1C23A;
+			productRefGroup = 051FE15A1D7B4A6F00B1C23A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				051FE1581D7B4A6F00B1C23A /* RedditWallPaper */,
+				051FE1711D7B4A7000B1C23A /* RedditWallPaperTests */,
+				051FE17C1D7B4A7000B1C23A /* RedditWallPaperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		051FE1571D7B4A6F00B1C23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051FE16C1D7B4A6F00B1C23A /* LaunchScreen.storyboard in Resources */,
+				051FE1691D7B4A6F00B1C23A /* Assets.xcassets in Resources */,
+				051FE1671D7B4A6F00B1C23A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051FE1701D7B4A7000B1C23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051FE17B1D7B4A7000B1C23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		051FE1551D7B4A6F00B1C23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051FE1641D7B4A6F00B1C23A /* ViewController.m in Sources */,
+				051FE1611D7B4A6F00B1C23A /* AppDelegate.m in Sources */,
+				051FE15E1D7B4A6F00B1C23A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051FE16E1D7B4A7000B1C23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051FE1771D7B4A7000B1C23A /* RedditWallPaperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051FE1791D7B4A7000B1C23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051FE1821D7B4A7000B1C23A /* RedditWallPaperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		051FE1741D7B4A7000B1C23A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 051FE1581D7B4A6F00B1C23A /* RedditWallPaper */;
+			targetProxy = 051FE1731D7B4A7000B1C23A /* PBXContainerItemProxy */;
+		};
+		051FE17F1D7B4A7000B1C23A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 051FE1581D7B4A6F00B1C23A /* RedditWallPaper */;
+			targetProxy = 051FE17E1D7B4A7000B1C23A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		051FE1651D7B4A6F00B1C23A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051FE1661D7B4A6F00B1C23A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		051FE16A1D7B4A6F00B1C23A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051FE16B1D7B4A6F00B1C23A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		051FE1841D7B4A7000B1C23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		051FE1851D7B4A7000B1C23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		051FE1871D7B4A7000B1C23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedditWallPaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ln.RedditWallPaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		051FE1881D7B4A7000B1C23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedditWallPaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ln.RedditWallPaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		051FE18A1D7B4A7000B1C23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedditWallPaperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ln.RedditWallPaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedditWallPaper.app/RedditWallPaper";
+			};
+			name = Debug;
+		};
+		051FE18B1D7B4A7000B1C23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedditWallPaperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ln.RedditWallPaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedditWallPaper.app/RedditWallPaper";
+			};
+			name = Release;
+		};
+		051FE18D1D7B4A7000B1C23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedditWallPaperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ln.RedditWallPaperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedditWallPaper;
+			};
+			name = Debug;
+		};
+		051FE18E1D7B4A7000B1C23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedditWallPaperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ln.RedditWallPaperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedditWallPaper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		051FE1541D7B4A6F00B1C23A /* Build configuration list for PBXProject "RedditWallPaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051FE1841D7B4A7000B1C23A /* Debug */,
+				051FE1851D7B4A7000B1C23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051FE1861D7B4A7000B1C23A /* Build configuration list for PBXNativeTarget "RedditWallPaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051FE1871D7B4A7000B1C23A /* Debug */,
+				051FE1881D7B4A7000B1C23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		051FE1891D7B4A7000B1C23A /* Build configuration list for PBXNativeTarget "RedditWallPaperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051FE18A1D7B4A7000B1C23A /* Debug */,
+				051FE18B1D7B4A7000B1C23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		051FE18C1D7B4A7000B1C23A /* Build configuration list for PBXNativeTarget "RedditWallPaperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051FE18D1D7B4A7000B1C23A /* Debug */,
+				051FE18E1D7B4A7000B1C23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 051FE1511D7B4A6F00B1C23A /* Project object */;
+}

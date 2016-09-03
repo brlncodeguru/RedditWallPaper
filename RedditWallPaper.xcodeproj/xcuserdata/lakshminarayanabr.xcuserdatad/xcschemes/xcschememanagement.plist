@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>RedditWallPaper.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>051FE1581D7B4A6F00B1C23A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>051FE1711D7B4A7000B1C23A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>051FE17C1D7B4A7000B1C23A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
