@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "051FE1581D7B4A6F00B1C23A"
+               BuildableName = "RedditWallPaper.app"
+               BlueprintName = "RedditWallPaper"
+               ReferencedContainer = "container:RedditWallPaper.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "051FE1711D7B4A7000B1C23A"
+               BuildableName = "RedditWallPaperTests.xctest"
+               BlueprintName = "RedditWallPaperTests"
+               ReferencedContainer = "container:RedditWallPaper.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "051FE17C1D7B4A7000B1C23A"
+               BuildableName = "RedditWallPaperUITests.xctest"
+               BlueprintName = "RedditWallPaperUITests"
+               ReferencedContainer = "container:RedditWallPaper.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "051FE1581D7B4A6F00B1C23A"
+            BuildableName = "RedditWallPaper.app"
+            BlueprintName = "RedditWallPaper"
+            ReferencedContainer = "container:RedditWallPaper.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "051FE1581D7B4A6F00B1C23A"
+            BuildableName = "RedditWallPaper.app"
+            BlueprintName = "RedditWallPaper"
+            ReferencedContainer = "container:RedditWallPaper.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "051FE1581D7B4A6F00B1C23A"
+            BuildableName = "RedditWallPaper.app"
+            BlueprintName = "RedditWallPaper"
+            ReferencedContainer = "container:RedditWallPaper.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RWViewController">
+            <connections>
+                <outlet property="flowLayout" destination="WLV-1l-1Y3" id="kU8-bz-59B"/>
+                <outlet property="rwCollectionBottomConstraint" destination="ZgG-Is-FZb" id="V5z-95-5su"/>
+                <outlet property="rwCollectionLeadingConstraint" destination="rgH-Kn-ehl" id="o5R-pe-4y3"/>
+                <outlet property="rwCollectionTopConstraint" destination="ucr-wz-S0g" id="Bjo-jr-DGt"/>
+                <outlet property="rwCollectionTrailingConstraint" destination="it2-8E-38L" id="KGs-xV-aeK"/>
+                <outlet property="rwCollectionView" destination="B6y-dZ-93l" id="D7T-J1-ep8"/>
+                <outlet property="tabBarItemLeft" destination="3aI-Ae-7C2" id="jdi-zG-ErE"/>
+                <outlet property="tabBarItemRight" destination="GwK-Ej-k7A" id="lPq-gy-hf0"/>
+                <outlet property="tabBarSelection" destination="GhI-RS-56m" id="slO-My-cbr"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="B6y-dZ-93l">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="686"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="WLV-1l-1Y3">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <tabBar contentMode="scaleToFill" misplaced="YES" itemPositioning="fill" translatesAutoresizingMaskIntoConstraints="NO" id="GhI-RS-56m">
+                    <rect key="frame" x="0.0" y="686" width="414" height="50"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="W0m-b7-ehd"/>
+                    </constraints>
+                    <items>
+                        <tabBarItem tag="1" title="Favorites" id="3aI-Ae-7C2"/>
+                        <tabBarItem tag="2" title="Collections" id="GwK-Ej-k7A"/>
+                    </items>
+                    <color key="tintColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </tabBar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="GhI-RS-56m" secondAttribute="bottom" id="H9s-GX-EUh"/>
+                <constraint firstAttribute="trailing" secondItem="GhI-RS-56m" secondAttribute="trailing" id="VVh-pC-jrw"/>
+                <constraint firstAttribute="bottom" secondItem="B6y-dZ-93l" secondAttribute="bottom" constant="50" id="ZgG-Is-FZb"/>
+                <constraint firstItem="GhI-RS-56m" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="dai-1s-1qC"/>
+                <constraint firstItem="GhI-RS-56m" firstAttribute="top" secondItem="B6y-dZ-93l" secondAttribute="bottom" id="g4w-RD-D9U"/>
+                <constraint firstAttribute="trailing" secondItem="B6y-dZ-93l" secondAttribute="trailing" id="it2-8E-38L"/>
+                <constraint firstItem="B6y-dZ-93l" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rgH-Kn-ehl"/>
+                <constraint firstItem="B6y-dZ-93l" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ucr-wz-S0g"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="g4w-RD-D9U"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

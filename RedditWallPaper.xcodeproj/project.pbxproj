@@ -9,12 +9,25 @@
 /* Begin PBXBuildFile section */
 		051FE15E1D7B4A6F00B1C23A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 051FE15D1D7B4A6F00B1C23A /* main.m */; };
 		051FE1611D7B4A6F00B1C23A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 051FE1601D7B4A6F00B1C23A /* AppDelegate.m */; };
-		051FE1641D7B4A6F00B1C23A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051FE1631D7B4A6F00B1C23A /* ViewController.m */; };
 		051FE1671D7B4A6F00B1C23A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051FE1651D7B4A6F00B1C23A /* Main.storyboard */; };
 		051FE1691D7B4A6F00B1C23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051FE1681D7B4A6F00B1C23A /* Assets.xcassets */; };
 		051FE16C1D7B4A6F00B1C23A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051FE16A1D7B4A6F00B1C23A /* LaunchScreen.storyboard */; };
 		051FE1771D7B4A7000B1C23A /* RedditWallPaperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 051FE1761D7B4A7000B1C23A /* RedditWallPaperTests.m */; };
 		051FE1821D7B4A7000B1C23A /* RedditWallPaperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 051FE1811D7B4A7000B1C23A /* RedditWallPaperUITests.m */; };
+		051FE19B1D7B4E7000B1C23A /* RWImageSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 051FE19A1D7B4E7000B1C23A /* RWImageSet.m */; };
+		051FE19E1D7B4EAC00B1C23A /* RWImageDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 051FE19D1D7B4EAC00B1C23A /* RWImageDetail.m */; };
+		051FE1A11D7B50DE00B1C23A /* RWBusinessLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 051FE1A01D7B50DE00B1C23A /* RWBusinessLayer.m */; };
+		051FE1AB1D7B7B6100B1C23A /* RWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051FE1A91D7B7B6100B1C23A /* RWViewController.m */; };
+		051FE1AC1D7B7B6100B1C23A /* RWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 051FE1AA1D7B7B6100B1C23A /* RWViewController.xib */; };
+		051FE1B11D7C82AA00B1C23A /* RWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 051FE1AF1D7C82AA00B1C23A /* RWCollectionViewCell.m */; };
+		051FE1B21D7C82AA00B1C23A /* RWCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 051FE1B01D7C82AA00B1C23A /* RWCollectionViewCell.xib */; };
+		051FE1B61D7CBDEC00B1C23A /* RWImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051FE1B41D7CBDEC00B1C23A /* RWImageViewController.m */; };
+		051FE1B71D7CBDEC00B1C23A /* RWImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 051FE1B51D7CBDEC00B1C23A /* RWImageViewController.xib */; };
+		051FE1BB1D7CC68F00B1C23A /* square-rounded-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 051FE1B91D7CC68F00B1C23A /* square-rounded-512.png */; };
+		051FE1BC1D7CC68F00B1C23A /* square-rounded-512Pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 051FE1BA1D7CC68F00B1C23A /* square-rounded-512Pink.png */; };
+		05FFE8631D7D3E4800D15A1D /* dM1qs.png in Resources */ = {isa = PBXBuildFile; fileRef = 05FFE8601D7D3E4800D15A1D /* dM1qs.png */; };
+		05FFE8641D7D3E4800D15A1D /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 05FFE8611D7D3E4800D15A1D /* heart.png */; };
+		05FFE8651D7D3E4800D15A1D /* star-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 05FFE8621D7D3E4800D15A1D /* star-128.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +52,6 @@
 		051FE15D1D7B4A6F00B1C23A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		051FE15F1D7B4A6F00B1C23A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		051FE1601D7B4A6F00B1C23A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		051FE1621D7B4A6F00B1C23A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		051FE1631D7B4A6F00B1C23A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		051FE1661D7B4A6F00B1C23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		051FE1681D7B4A6F00B1C23A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		051FE16B1D7B4A6F00B1C23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +62,26 @@
 		051FE17D1D7B4A7000B1C23A /* RedditWallPaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedditWallPaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		051FE1811D7B4A7000B1C23A /* RedditWallPaperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedditWallPaperUITests.m; sourceTree = "<group>"; };
 		051FE1831D7B4A7000B1C23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051FE1991D7B4E7000B1C23A /* RWImageSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWImageSet.h; path = Model/RWImageSet.h; sourceTree = "<group>"; };
+		051FE19A1D7B4E7000B1C23A /* RWImageSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWImageSet.m; path = Model/RWImageSet.m; sourceTree = "<group>"; };
+		051FE19C1D7B4EAC00B1C23A /* RWImageDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWImageDetail.h; path = Model/RWImageDetail.h; sourceTree = "<group>"; };
+		051FE19D1D7B4EAC00B1C23A /* RWImageDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWImageDetail.m; path = Model/RWImageDetail.m; sourceTree = "<group>"; };
+		051FE19F1D7B50DE00B1C23A /* RWBusinessLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWBusinessLayer.h; path = BusinessLayer/RWBusinessLayer.h; sourceTree = "<group>"; };
+		051FE1A01D7B50DE00B1C23A /* RWBusinessLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWBusinessLayer.m; path = BusinessLayer/RWBusinessLayer.m; sourceTree = "<group>"; };
+		051FE1A81D7B7B6100B1C23A /* RWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWViewController.h; path = ViewController/RWViewController.h; sourceTree = "<group>"; };
+		051FE1A91D7B7B6100B1C23A /* RWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWViewController.m; path = ViewController/RWViewController.m; sourceTree = "<group>"; };
+		051FE1AA1D7B7B6100B1C23A /* RWViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RWViewController.xib; path = ViewController/RWViewController.xib; sourceTree = "<group>"; };
+		051FE1AE1D7C82AA00B1C23A /* RWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWCollectionViewCell.h; path = View/RWCollectionViewCell.h; sourceTree = "<group>"; };
+		051FE1AF1D7C82AA00B1C23A /* RWCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWCollectionViewCell.m; path = View/RWCollectionViewCell.m; sourceTree = "<group>"; };
+		051FE1B01D7C82AA00B1C23A /* RWCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RWCollectionViewCell.xib; path = View/RWCollectionViewCell.xib; sourceTree = "<group>"; };
+		051FE1B31D7CBDEC00B1C23A /* RWImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWImageViewController.h; path = ViewController/RWImageViewController.h; sourceTree = "<group>"; };
+		051FE1B41D7CBDEC00B1C23A /* RWImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWImageViewController.m; path = ViewController/RWImageViewController.m; sourceTree = "<group>"; };
+		051FE1B51D7CBDEC00B1C23A /* RWImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RWImageViewController.xib; path = ViewController/RWImageViewController.xib; sourceTree = "<group>"; };
+		051FE1B91D7CC68F00B1C23A /* square-rounded-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "square-rounded-512.png"; path = "Assets/square-rounded-512.png"; sourceTree = "<group>"; };
+		051FE1BA1D7CC68F00B1C23A /* square-rounded-512Pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "square-rounded-512Pink.png"; path = "Assets/square-rounded-512Pink.png"; sourceTree = "<group>"; };
+		05FFE8601D7D3E4800D15A1D /* dM1qs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dM1qs.png; path = Assets/dM1qs.png; sourceTree = "<group>"; };
+		05FFE8611D7D3E4800D15A1D /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heart.png; path = Assets/heart.png; sourceTree = "<group>"; };
+		05FFE8621D7D3E4800D15A1D /* star-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star-128.png"; path = "Assets/star-128.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +112,7 @@
 		051FE1501D7B4A6F00B1C23A = {
 			isa = PBXGroup;
 			children = (
-				051FE15B1D7B4A6F00B1C23A /* RedditWallPaper */,
+				051FE1901D7B4ACA00B1C23A /* New Group */,
 				051FE1751D7B4A7000B1C23A /* RedditWallPaperTests */,
 				051FE1801D7B4A7000B1C23A /* RedditWallPaperUITests */,
 				051FE15A1D7B4A6F00B1C23A /* Products */,
@@ -101,10 +132,13 @@
 		051FE15B1D7B4A6F00B1C23A /* RedditWallPaper */ = {
 			isa = PBXGroup;
 			children = (
+				051FE1B81D7CC65B00B1C23A /* Assets */,
+				051FE1AD1D7C827500B1C23A /* View */,
+				051FE1931D7B4BF200B1C23A /* ViewController */,
+				051FE1921D7B4B8B00B1C23A /* BusinessLayer */,
+				051FE1911D7B4B8300B1C23A /* Model */,
 				051FE15F1D7B4A6F00B1C23A /* AppDelegate.h */,
 				051FE1601D7B4A6F00B1C23A /* AppDelegate.m */,
-				051FE1621D7B4A6F00B1C23A /* ViewController.h */,
-				051FE1631D7B4A6F00B1C23A /* ViewController.m */,
 				051FE1651D7B4A6F00B1C23A /* Main.storyboard */,
 				051FE1681D7B4A6F00B1C23A /* Assets.xcassets */,
 				051FE16A1D7B4A6F00B1C23A /* LaunchScreen.storyboard */,
@@ -138,6 +172,69 @@
 				051FE1831D7B4A7000B1C23A /* Info.plist */,
 			);
 			path = RedditWallPaperUITests;
+			sourceTree = "<group>";
+		};
+		051FE1901D7B4ACA00B1C23A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				051FE15B1D7B4A6F00B1C23A /* RedditWallPaper */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		051FE1911D7B4B8300B1C23A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				051FE1991D7B4E7000B1C23A /* RWImageSet.h */,
+				051FE19A1D7B4E7000B1C23A /* RWImageSet.m */,
+				051FE19C1D7B4EAC00B1C23A /* RWImageDetail.h */,
+				051FE19D1D7B4EAC00B1C23A /* RWImageDetail.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		051FE1921D7B4B8B00B1C23A /* BusinessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				051FE19F1D7B50DE00B1C23A /* RWBusinessLayer.h */,
+				051FE1A01D7B50DE00B1C23A /* RWBusinessLayer.m */,
+			);
+			name = BusinessLayer;
+			sourceTree = "<group>";
+		};
+		051FE1931D7B4BF200B1C23A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				051FE1A81D7B7B6100B1C23A /* RWViewController.h */,
+				051FE1A91D7B7B6100B1C23A /* RWViewController.m */,
+				051FE1AA1D7B7B6100B1C23A /* RWViewController.xib */,
+				051FE1B31D7CBDEC00B1C23A /* RWImageViewController.h */,
+				051FE1B41D7CBDEC00B1C23A /* RWImageViewController.m */,
+				051FE1B51D7CBDEC00B1C23A /* RWImageViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		051FE1AD1D7C827500B1C23A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				051FE1AE1D7C82AA00B1C23A /* RWCollectionViewCell.h */,
+				051FE1AF1D7C82AA00B1C23A /* RWCollectionViewCell.m */,
+				051FE1B01D7C82AA00B1C23A /* RWCollectionViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		051FE1B81D7CC65B00B1C23A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				05FFE8601D7D3E4800D15A1D /* dM1qs.png */,
+				05FFE8611D7D3E4800D15A1D /* heart.png */,
+				05FFE8621D7D3E4800D15A1D /* star-128.png */,
+				051FE1B91D7CC68F00B1C23A /* square-rounded-512.png */,
+				051FE1BA1D7CC68F00B1C23A /* square-rounded-512Pink.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +341,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				051FE16C1D7B4A6F00B1C23A /* LaunchScreen.storyboard in Resources */,
+				051FE1B71D7CBDEC00B1C23A /* RWImageViewController.xib in Resources */,
+				05FFE8641D7D3E4800D15A1D /* heart.png in Resources */,
+				051FE1AC1D7B7B6100B1C23A /* RWViewController.xib in Resources */,
+				051FE1BC1D7CC68F00B1C23A /* square-rounded-512Pink.png in Resources */,
+				05FFE8651D7D3E4800D15A1D /* star-128.png in Resources */,
 				051FE1691D7B4A6F00B1C23A /* Assets.xcassets in Resources */,
+				05FFE8631D7D3E4800D15A1D /* dM1qs.png in Resources */,
+				051FE1BB1D7CC68F00B1C23A /* square-rounded-512.png in Resources */,
+				051FE1B21D7C82AA00B1C23A /* RWCollectionViewCell.xib in Resources */,
 				051FE1671D7B4A6F00B1C23A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +375,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				051FE1641D7B4A6F00B1C23A /* ViewController.m in Sources */,
+				051FE1B11D7C82AA00B1C23A /* RWCollectionViewCell.m in Sources */,
 				051FE1611D7B4A6F00B1C23A /* AppDelegate.m in Sources */,
+				051FE1AB1D7B7B6100B1C23A /* RWViewController.m in Sources */,
+				051FE1A11D7B50DE00B1C23A /* RWBusinessLayer.m in Sources */,
 				051FE15E1D7B4A6F00B1C23A /* main.m in Sources */,
+				051FE1B61D7CBDEC00B1C23A /* RWImageViewController.m in Sources */,
+				051FE19B1D7B4E7000B1C23A /* RWImageSet.m in Sources */,
+				051FE19E1D7B4EAC00B1C23A /* RWImageDetail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +608,7 @@
 				051FE1881D7B4A7000B1C23A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		051FE1891D7B4A7000B1C23A /* Build configuration list for PBXNativeTarget "RedditWallPaperTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +617,7 @@
 				051FE18B1D7B4A7000B1C23A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		051FE18C1D7B4A7000B1C23A /* Build configuration list for PBXNativeTarget "RedditWallPaperUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +626,7 @@
 				051FE18E1D7B4A7000B1C23A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

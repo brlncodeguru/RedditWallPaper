@@ -13,9 +13,14 @@
 @end
 
 @implementation AppDelegate
-
+@synthesize vcRW;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+    vcRW=[[RWViewController alloc]init];
+    self.window.rootViewController=vcRW;
     // Override point for customization after application launch.
     return YES;
 }
