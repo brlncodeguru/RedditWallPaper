@@ -11,6 +11,7 @@
 #import "RWImageSet.h"
 #import "RWImageDetail.h"
 #import "RWImageViewController.h"
+#import "Reachability.h"
 
 @interface RWViewController : UIViewController<UITabBarDelegate>
 @property (weak, nonatomic) IBOutlet UICollectionView *rwCollectionView;
@@ -31,5 +32,23 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *rwCollectionTopConstraint;
 @property(strong,nonatomic)RWImageViewController *imgVC;
 @property(strong,nonatomic)RWImageSet *selectedImageSet;
+
+@property(strong,nonatomic)NSMutableArray *marrSavedPhotos;
+@property(assign,nonatomic)Boolean isViewDidLoadCalled;
+
+@property(strong,nonatomic)Reachability *hostReachable;
+@property(strong,nonatomic)Reachability *internetReachable;
+
+@property(assign,nonatomic)Boolean hostActive;
+@property(assign,nonatomic)Boolean internetActive;
+
+@property(assign,nonatomic)Boolean isImageViewScreen;
+
+@property(strong,nonatomic)NSThread *currentThread;
+
+@property (weak, nonatomic) IBOutlet UILabel *lblError;
+
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *mainActivityIndicator;
+
 
 @end

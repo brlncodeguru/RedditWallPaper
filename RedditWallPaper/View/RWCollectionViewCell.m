@@ -21,6 +21,8 @@
     
     imageThumbNail=[[UIImage alloc]init];
     imgThumbNail.image=imageThumbNail;
+    imgThumbNail.layer.cornerRadius=8;
+    imgThumbNail.clipsToBounds=YES;
     
     
 }

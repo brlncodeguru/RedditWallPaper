@@ -10,5 +10,8 @@
 
 @interface RWImageViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *imgVwSource;
+@property (weak, nonatomic) IBOutlet UILabel *lblError;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicatorImageView;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollVwImage;
 
 @end

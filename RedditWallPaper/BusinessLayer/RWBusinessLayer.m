@@ -18,7 +18,7 @@
     NSArray *arrImageSet;
     NSMutableArray *marrImageSet=[[NSMutableArray alloc]init];
     
-    NSDictionary *dictCache=[[NSDictionary alloc]init];
+    NSDictionary *dictCache;
     dictCache=[jsonCache objectForKey:@"ImageData"];
 
     
@@ -26,7 +26,7 @@
     {
         if([key isEqualToString:@"data"])
         {
-            NSDictionary *dictData=[[NSDictionary alloc]init];
+            NSDictionary *dictData;
             dictData=[dictCache valueForKey:key];
             for(NSString *dataKey in dictData.allKeys)
             {

@@ -25,6 +25,8 @@
 		051FE1B71D7CBDEC00B1C23A /* RWImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 051FE1B51D7CBDEC00B1C23A /* RWImageViewController.xib */; };
 		051FE1BB1D7CC68F00B1C23A /* square-rounded-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 051FE1B91D7CC68F00B1C23A /* square-rounded-512.png */; };
 		051FE1BC1D7CC68F00B1C23A /* square-rounded-512Pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 051FE1BA1D7CC68F00B1C23A /* square-rounded-512Pink.png */; };
+		052B3C031D835A29007B1BEC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 052B3C021D835A29007B1BEC /* Reachability.m */; };
+		052B3C051D836208007B1BEC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052B3C041D836208007B1BEC /* SystemConfiguration.framework */; };
 		05FFE8631D7D3E4800D15A1D /* dM1qs.png in Resources */ = {isa = PBXBuildFile; fileRef = 05FFE8601D7D3E4800D15A1D /* dM1qs.png */; };
 		05FFE8641D7D3E4800D15A1D /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 05FFE8611D7D3E4800D15A1D /* heart.png */; };
 		05FFE8651D7D3E4800D15A1D /* star-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 05FFE8621D7D3E4800D15A1D /* star-128.png */; };
@@ -79,6 +81,9 @@
 		051FE1B51D7CBDEC00B1C23A /* RWImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RWImageViewController.xib; path = ViewController/RWImageViewController.xib; sourceTree = "<group>"; };
 		051FE1B91D7CC68F00B1C23A /* square-rounded-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "square-rounded-512.png"; path = "Assets/square-rounded-512.png"; sourceTree = "<group>"; };
 		051FE1BA1D7CC68F00B1C23A /* square-rounded-512Pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "square-rounded-512Pink.png"; path = "Assets/square-rounded-512Pink.png"; sourceTree = "<group>"; };
+		052B3C011D835A29007B1BEC /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Reachability/Reachability.h; sourceTree = "<group>"; };
+		052B3C021D835A29007B1BEC /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Reachability/Reachability.m; sourceTree = "<group>"; };
+		052B3C041D836208007B1BEC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		05FFE8601D7D3E4800D15A1D /* dM1qs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dM1qs.png; path = Assets/dM1qs.png; sourceTree = "<group>"; };
 		05FFE8611D7D3E4800D15A1D /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heart.png; path = Assets/heart.png; sourceTree = "<group>"; };
 		05FFE8621D7D3E4800D15A1D /* star-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star-128.png"; path = "Assets/star-128.png"; sourceTree = "<group>"; };
@@ -89,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				052B3C051D836208007B1BEC /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +118,7 @@
 		051FE1501D7B4A6F00B1C23A = {
 			isa = PBXGroup;
 			children = (
+				052B3C041D836208007B1BEC /* SystemConfiguration.framework */,
 				051FE1901D7B4ACA00B1C23A /* New Group */,
 				051FE1751D7B4A7000B1C23A /* RedditWallPaperTests */,
 				051FE1801D7B4A7000B1C23A /* RedditWallPaperUITests */,
@@ -132,6 +139,7 @@
 		051FE15B1D7B4A6F00B1C23A /* RedditWallPaper */ = {
 			isa = PBXGroup;
 			children = (
+				052B3C001D8359F9007B1BEC /* Reachability */,
 				051FE1B81D7CC65B00B1C23A /* Assets */,
 				051FE1AD1D7C827500B1C23A /* View */,
 				051FE1931D7B4BF200B1C23A /* ViewController */,
@@ -235,6 +243,15 @@
 				051FE1BA1D7CC68F00B1C23A /* square-rounded-512Pink.png */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		052B3C001D8359F9007B1BEC /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				052B3C011D835A29007B1BEC /* Reachability.h */,
+				052B3C021D835A29007B1BEC /* Reachability.m */,
+			);
+			name = Reachability;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,6 +399,7 @@
 				051FE15E1D7B4A6F00B1C23A /* main.m in Sources */,
 				051FE1B61D7CBDEC00B1C23A /* RWImageViewController.m in Sources */,
 				051FE19B1D7B4E7000B1C23A /* RWImageSet.m in Sources */,
+				052B3C031D835A29007B1BEC /* Reachability.m in Sources */,
 				051FE19E1D7B4EAC00B1C23A /* RWImageDetail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
